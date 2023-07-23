@@ -3,7 +3,7 @@
 <html>
     
 <head>
-        
+  <script src="./scripts/d.js" >anonymous()</script>    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
           <link href="./CSS/style.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
+
   <style type="text/css">
       path {
           stroke-dashoffset: -1;               
@@ -85,11 +86,11 @@
                 </div>
                 </nav>
                 
-                    <img src="./Images/Normal/helping.jpg" class="img-fluid" >
+                    <img src="./Images/Normal/helping.jpg" class="img-fluid" />
                     <div class="container text-center">
                         <div class="row">
                           <div class="col">
-                            <h1>Our Singature Diversity and Inclusivity Workshop</h1>
+                            <h1>Our Signature Diversity and Inclusivity Workshop</h1>
                             <p>  The <h6>Diversity and Inclusivity workshop</h6> is is our signature workshop designed by us to <strong>Enhance</strong>,<strong>Educate</strong>and<strong>Enrich</strong> Society </p>
                             <h1> WorkShop details and Schedule</h1>
                           </div>
@@ -103,13 +104,13 @@
                                
 
                                 <div class="accordion " id="accordion-workshop">
-                                    <div class="accordion-item " id="workshop details">
+                                    <div class="accordion-item " >
                                       <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#workshop-details" aria-expanded="false" aria-controls="workshop-details">
                                           Workshop details
                                         </button>
                                       </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                      <div id="workshop-details" class="accordion-collapse collapse " data-bs-parent="#accordion-workshop">
                                         <div class="accordion-body">
                                             <table class="table">
                                                 <thead>
@@ -150,13 +151,13 @@
                                         </div>
                                       </div>
                                     </div>
-                                    <div class="accordion-item" id="day1">
+                                    <div class="accordion-item">
                                         <h2 class="accordion-header">
-                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day1" aria-expanded="false" aria-controls="day1">
                                             Day 1
                                           </button>
                                         </h2>
-                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div id="day1" class="accordion-collapse collapse " data-bs-parent="#accordion-workshop">
                                           <div class="accordion-body">
                                             <div class="row">
                                                 
@@ -224,14 +225,15 @@
                                           </div>
                                         </div>
                                       </div>
+                                      
 
-                                      <div class="accordion-item" id="day2">
+                                      <div class="accordion-item" >
                                         <h2 class="accordion-header">
-                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day2" aria-expanded="true" aria-controls="workshop-details">
                                             Day 2
                                           </button>
                                         </h2>
-                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div id="day2" class="accordion-collapse collapse " data-bs-parent="#accordion-workshop">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     
@@ -311,13 +313,13 @@
                                               </div>
                                         </div>
                                       </div>
-                                      <div class="accordion-item" id="day3">
+                                      <div class="accordion-item" >
                                         <h2 class="accordion-header">
-                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day3" aria-expanded="true" aria-controls="day3">
                                             Day 3
                                           </button>
                                         </h2>
-                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div id="day3" class="accordion-collapse collapse collapsed" data-bs-parent="#accordion-workshop">
                                             <div class="accordion-body">
                                                 <div class="row">
                                                     
