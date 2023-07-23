@@ -1,0 +1,12 @@
+.c{
+    max-height: 500px;
+
+}
+
+nav{
+    
+    opacity:85%;
+    background-color:white;
+    -webkit-backdrop-filter: blur(2px);
+    
+}

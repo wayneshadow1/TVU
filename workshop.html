@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link href="./CSS/style.css" rel="stylesheet">
+          <link href="./CSS/Bootstrap/bootstrap.min.css" rel="stylesheet" >
+  <script src="./scripts/bootstrap.bundle.min.js" ></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyC5pjqMGAngJO9F6RnAsm6y6grMKvogmo8",
+      authDomain: "tests-927dd.firebaseapp.com",
+      projectId: "tests-927dd",
+      storageBucket: "tests-927dd.appspot.com",
+      messagingSenderId: "691673096281",
+      appId: "1:691673096281:web:3d5766bad247e731901148",
+      measurementId: "G-E1CGWL0PBR"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <style type="text/css">
+      path {
+          stroke-dashoffset: -1;               
+          stroke-linejoin: round;
+          stroke-linecap: round;
+          animation: draw 5s ease-in;          
+      }
+      @keyframes draw {
+          0% {
+              stroke-dasharray: 0 83;          
+              fill-opacity: 0;
+          }
+          90% {
+              stroke-dasharray: 83 0;          
+              fill-opacity: 0;
+          }
+          100% {
+              stroke-dasharray: 83 0;
+              fill-opacity: 1;                 
+          }
+      }
+  </style>
+      
+  </head>
+        <body>
+            <nav class="navbar navbar-expand-lg sticky-top ">
+                <div class="container-fluid">
+                      <a class="navbar-brand " href="./index.html">TVU</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./about.html">About us </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./contactform.html">Contact us </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./workshop.html">About Our workshop</a>
+                        </li>
+                      </ul>
+                   
+                    </div>
+                
+                </div>
+                </nav>
+                
+                    <img src="./Images/Normal/helping.jpg" class="img-fluid" >
+                    <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <h1>Our Singature Diversity and Inclusivity Workshop</h1>
+                            <p>  The <h6>Diversity and Inclusivity workshop</h6> is is our signature workshop designed by us to <strong>Enhance</strong>,<strong>Educate</strong>and<strong>Enrich</strong> Society </p>
+                            <h1> WorkShop details and Schedule</h1>
+                          </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+
+                            </div>
+                            <div class="col-300">
+                            <div class="row">
+                               
+
+                                <div class="accordion " id="accordion-workshop">
+                                    <div class="accordion-item " id="workshop details">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          Workshop details
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <table class="table">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">Detail</th>
+                                                    <th scope="col">Description</th>
+        
+                                                  </tr>
+                                                </thead>
+                                                <tbody class="table-group-divider">
+                                                  <tr>
+                                                    <th scope="row">Duration</th>
+                                                    <td>-3 hrs per day for 3 days(9 hours)</td>
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Address</th>
+                                                    <td>-To be Decided Upon Contact</td>
+                                                   
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Who Should Attend</th>
+                                                    <td>-Human Resource (HR) Managers and Executives<br> -Managers, Team Leaders and Executives working with PWDs.</td>
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Goals</th>
+                                                    <td>-To bridge the gap between company and PWDs <br> -The training package teaches companies how to engage PWDs and develop a more inclusive workplace culture for those with cerebral palsy.</td>
+                                                    
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">Outconmes</th>
+                                                    <td>-Employers will have a better understanding of the needs and wants of their employees with cerebral palsy and be able to implement better infrastructure to their environment to prevent discrimination.  <br>-Communicate effectively and create a welcoming workplace for PWDs <br>-Use real-world advice for hiring requirements, interviewing, and integrating PWDs into the workplace.<br>-Provide workplace accommodations, employee involvement and support for PWDs    </td>
+                                                    
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item" id="day1">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Day 1
+                                          </button>
+                                        </h2>
+                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <div class="row">
+                                                
+                                                <div class="col">
+                                                        
+                                                 
+                                                    <div class="card mb-3" style="width: 20rem;">
+                                                        
+                    
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">Introduction and understanding</h5>
+                                                          <p class="card-text">In this session , persons will cerebal palsy will speak on their various symptomps and how it can impede their work. Consequently , sharing their experience with
+                                                            how discrimination , exclusion and inaccessibility  exacerbates and their condition
+                                                          </p>
+                                        
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                <div class="col">
+                                                        
+                                                
+                                                        <div class="card" style="width: 20rem;">
+                                                            
+                        
+                                                            <div class="card-body">
+                                                              <h5 class="card-title">Take Space, Make Space</h5>
+                                                              <p class="card-text">Attendees roleplay those with cerebral palsy by doing simple tasks with impairment much like how those with cerebral palsy might have difficulty doing 
+                                                                like typing without assistive technology, going about an inaccesible space in a wheel chair etc. This session aims to build empathy between Non-PWDS and PWDs viscerally
+                                                              </p>
+                                            
+                                                            </div>
+                                                          </div>
+                                                    </div>
+                                                <div class="col ">
+                                                        
+                                                
+                                                            <div class="card" style="width: 20rem;">
+                                                                
+                            
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Brainstorming & Discussion</h5>
+                                                                  <p class="card-text">Attendees break into groups and brainstorm ideas to make their workplace,culture and environment more inclusive from self practices to larger
+                                                                    canpaignes  and present them to the larger group.</p>
+                                                
+                                                                </div>
+                                                              </div>
+                                                    </div>
+                                                <div class="col">
+                                                        
+                                                
+                                                                <div class="card" style="width: 20rem;">
+                                                                    
+                                
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Making a more accessible workplace</h5>
+                                                                      <p class="card-text">Facilitators go through the suggestions and go through their own observations of the company as to how to improve its conditions</p>
+                                                    
+                                                                    </div>
+                                                                  </div>
+                                                    </div>
+
+                                            </div>
+                                          
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item" id="day2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Day 2
+                                          </button>
+                                        </h2>
+                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    
+                                                    <div class="col">
+                                                            
+                                                     
+                                                        <div class="card mb-3" style="width: 20rem;">
+                                                            
+                        
+                                                            <div class="card-body">
+                                                              <h5 class="card-title">Diversity In the Workplace</h5>
+                                                              <p class="card-text">Persons with cerebral palsy will share personal stories and statistics of the struggles PWDs face with gaining employment
+                                                              </p>
+                                            
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                    <div class="col">
+                                                            
+                                                    
+                                                            <div class="card" style="width: 20rem;">
+                                                                
+                            
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Empath Exercise </h5>
+                                                                  <p class="card-text">Attendees roleplay real world scenarios of job interviews, facing daily exclusion and being fired for not being quick  enough through a series of 
+                                                                    elimations games designed for them to fail
+                                                                  </p>
+                                                
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    <div class="col ">
+                                                            
+                                                    
+                                                                <div class="card" style="width: 20rem;">
+                                                                    
+                                
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Empathy Exercise 2.0</h5>
+                                                                      <p class="card-text">attendees will participate in the same activities with a buddy . this time the game is targeted for them to succeed with assistance</p>
+                                                    
+                                                                    </div>
+                                                                  </div>
+                                                        </div>
+                                                    <div class="col">
+                                                            
+                                                    
+                                                                    <div class="card" style="width: 20rem;">
+                                                                        
+                                    
+                                                                        <div class="card-body">
+                                                                          <h5 class="card-title">Implementing Diversity in the Workplace</h5>
+                                                                          <p class="card-text">Facilitators introduce resources and support systems that attendees can implement into their workplace to make the company more diverse in its hires and culture</p>
+                                                        
+                                                                        </div>
+                                                                      </div>
+                                                        </div>
+                                                    <div class="col">
+                                                            
+                                                    
+                                                            <div class="card" style="width: 20rem;">
+                                                                
+                            
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Networking and Dismissal</h5>
+                                                                  <p class="card-text">Attendees and facilitators are givent eh chance to work together and get to know each other</p>
+                                                
+                                                                </div>
+                                                              </div>
+                                                       </div>
+
+    
+                                                </div>
+                                              
+                                                
+                                              </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item" id="day3">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Day 3
+                                          </button>
+                                        </h2>
+                                        <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    
+                                                    <div class="col">
+                                                            
+                                                     
+                                                        <div class="card mb-3" style="width: 20rem;">
+                                                            
+                        
+                                                            <div class="card-body">
+                                                              <h5 class="card-title">Assistive Technologies</h5>
+                                                              <p class="card-text">Facilitators will present assistive tech that help them and how in the workplace
+                                            
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                    <div class="col">
+                                                            
+                                                    
+                                                            <div class="card" style="width: 20rem;">
+                                                                
+                            
+                                                                <div class="card-body">
+                                                                  <h5 class="card-title">Assistive Tech Companies Talk</h5>
+                                                                  <p class="card-text">Companies that specialise in assistive tech will be giving 10miuns talks each to present their offers or packages and what they can add value </p>
+                                                
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    <div class="col ">
+                                                            
+                                                    
+                                                                <div class="card" style="width: 20rem;">
+                                                                    
+                                
+                                                                    <div class="card-body">
+                                                                      <h5 class="card-title">Networking and Dismissal </h5>
+                                                                      <p class="card-text">Attendeesm will be able to network with the assistive tech companies</p>
+                                                    
+                                                                    </div>
+                                                                  </div>
+                                                        </div>
+                                                    <div class="col">
+                                                            
+                                                    
+                                                                    <div class="card" style="width: 20rem;">
+                                                                        
+                                    
+                                                                        <div class="card-body">
+                                                                          <h5 class="card-title">Closing speech and ceremony</h5>
+                                                                        
+                                                        
+                                                                        </div>
+                                                                      </div>
+                                                        </div>
+    
+                                                </div>
+                                              
+                                                
+                                              </div>
+                                        </div>
+                                      </div>
+                                    
+                                  
+                                </div>
+                                <div class="row">
+                                    <h1>
+                                        Experience our workshop
+                                    </h1>
+                                    <iframe src="https://floorplanner.com/360vr/90363333-1690054731" height="900" width="1600" allow="xr-spatial-tracking" allowfullscreen="">
+
+                                    </iframe>
+                                </div>
+                                <div class="row">
+                                <h1>
+                                    Video
+                                </h1>
+                                <video src="./staticMedia/video_2023-07-23_12-53-21.mp4" height="900" width="1600" autoplay controls controlsList="nodownload" oncontextmenu="return false;" ></video>
+
+                            </div>
+
+                            </div>
+                            
+                            
+                            <div class="col">
+
+                            </div>
+                          </div>
+                          <div class="col">
+
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    
+                   
+
+        </body>
+   
+</html>
