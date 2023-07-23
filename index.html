@@ -57,7 +57,7 @@
     
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top ">
+  <nav class="navbar navbar-expand-lg sticky-top " style="background-color: #81F359;">
     <div class="container-fluid">
           <a class="navbar-brand " href="./index.html">TVU</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,15 +68,21 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About us </a>
-            </li>
+            
             
             <li class="nav-item">
               <a class="nav-link active" href="./contactform.html">Contact us </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./workshop.html">About Our workshop</a>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About...
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./about.html">Us</a></li>
+                <li><a class="dropdown-item" href="./workshop.html">Our Signature WorkShop</a></li>
+                <li><a class="dropdown-item" href="#">Disabled People</a></li>
+              </ul>
             </li>
           </ul>
        
@@ -84,7 +90,6 @@
     
     </div>
     </nav>
-    
     <div id="img_carousel" class="carousel slide carousel-fade" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#img_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
